@@ -1,0 +1,23 @@
+{
+  "name": "my-package-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "myTemp": "index.js"
+  },
+  "dependencies": {
+    "commander": "^5.0.0",
+    "chalk": "^2.4.1",
+    "download-git-repo": "^1.0.2",
+    "handlebars": "^4.0.11",
+    "inquirer": "^6.0.0",
+    "log-symbols": "^2.2.0",
+    "ora": "^3.0.0"
+  }
+}
