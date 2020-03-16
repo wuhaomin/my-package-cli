@@ -60,7 +60,7 @@ program
           const spinner = ora('正在下载模板...');
           spinner.start();
           const type = getType[answers.type]
-          download(`github:wuhaomin/template/#${type}`, name, err => {
+          download(`github:wuhaomin/mytemplate/#${type}`, name, err => {
             if (err) {
               spinner.fail();
             } else {
